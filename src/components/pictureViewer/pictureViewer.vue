@@ -1,3 +1,9 @@
+<!--
+ * @Author: 33357
+ * @Date: 2021-05-14 13:21:09
+ * @LastEditTime: 2021-05-14 13:42:31
+ * @LastEditors: 33357
+-->
 <template>
 <div class="picture-viewer">
   <div class="picture-window">
@@ -14,8 +20,8 @@
 <script>
   import Vue from 'vue'
   import AlloyFinger from 'alloyfinger'
-  import AlloyFingerVue from 'alloyfinger/vue/alloy_finger.vue.js'
-  Vue.use(AlloyFingerVue, { AlloyFinger: AlloyFinger });
+  import AlloyFingerPlugin from 'alloyfinger/vue/alloy_finger_vue.js'
+  Vue.use(AlloyFingerPlugin, { AlloyFinger: AlloyFinger });
 
   export default {
     name: 'pictureViewer',
